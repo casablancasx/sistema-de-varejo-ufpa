@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050b2da7-e4e1-4b21-aa89-8f0679b62d38" name="Changes" comment="adicionando classes para análise de vendas e plotagem de gráficos">
-      <change afterPath="$PROJECT_DIR$/app/base_de_varejo.csv" afterDir="false" />
+    <list default="true" id="050b2da7-e4e1-4b21-aa89-8f0679b62d38" name="Changes" comment="adicionando novas funcionalidades para análise e plotagem de vendas">
+      <change afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/sales_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/sales_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/plots/sales_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/plots/sales_plotter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "casablancasx"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/casablancasx/sistema-de-varejo-ufpa.git",
@@ -40,7 +50,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.app.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.run.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -65,6 +77,36 @@
       <recent name="C:\Projetos\Python\sistema-varejo\app" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sistema-varejo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739131831886</updated>
       <workItem from="1739131832961" duration="305000" />
-      <workItem from="1739132151885" duration="1278000" />
+      <workItem from="1739132151885" duration="3490000" />
     </task>
     <task id="LOCAL-00001" summary="adicionando módulos de processamento de dados e análise de vendas com funcionalidade de plotagem">
       <option name="closed" value="true" />
@@ -100,18 +142,40 @@
       <option name="project" value="LOCAL" />
       <updated>1739133354658</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adicionando novas funcionalidades para análise e plotagem de vendas">
+      <option name="closed" value="true" />
+      <created>1739133741618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739133741618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adicionando módulos de processamento de dados e análise de vendas com funcionalidade de plotagem" />
     <MESSAGE value="adicionando classes para análise de vendas e plotagem de gráficos" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando classes para análise de vendas e plotagem de gráficos" />
+    <MESSAGE value="adicionando novas funcionalidades para análise e plotagem de vendas" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando novas funcionalidades para análise e plotagem de vendas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sistema_varejo$main.coverage" NAME="main Coverage Results" MODIFIED="1739133365264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/sistema_varejo$main.coverage" NAME="main Coverage Results" MODIFIED="1739133927909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/sistema_varejo$run.coverage" NAME="run Coverage Results" MODIFIED="1739135674075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/sistema_varejo$app.coverage" NAME="app Coverage Results" MODIFIED="1739134255794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
