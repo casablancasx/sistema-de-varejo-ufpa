@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 class SalesPlotter:
     @staticmethod
     def plot_sales(df, sales_table):
@@ -13,17 +14,23 @@ class SalesPlotter:
         ax.grid(True)
         plt.xticks(rotation=90)
         plt.tight_layout()
+        for c in ax.containers:
+            ax.label(c, label_type='edge')
         return fig
 
     @staticmethod
     def plot_remaining_stock(df):
         fig, ax = plt.subplots(figsize=(10, 6))
         ax.bar(df['PROD'], df['ESTOQUE_ATUAL'])
+        # plt.text(float(df['PROD']), float(df['ESTOQUE_ATUAL']),str(df['ESTOQUE_ATUAL']))
+
         ax.set_title('Estoque Restante de Cada Produto Após 12 Meses')
         ax.set_xlabel('Produtos')
         ax.set_ylabel('Estoque Restante')
         plt.xticks(rotation=90)
         plt.tight_layout()
+        for c in ax.containers:
+            ax.bar_label(c, label_type='edge')
         return fig
 
     @staticmethod
@@ -35,4 +42,6 @@ class SalesPlotter:
         ax.set_ylabel('Quantidade Vendida')
         plt.xticks(rotation=90)
         plt.tight_layout()
+        for c in ax.containers:
+            ax.bar_label(c, label_type='edge')
         return fig
