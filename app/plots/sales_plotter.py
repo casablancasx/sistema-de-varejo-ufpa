@@ -12,7 +12,6 @@ class SalesPlotter:
         ax.set_ylabel('Quantidade Vendida')
         ax.legend(title='Produtos')
         ax.grid(True)
-        plt.xticks(rotation=90)
         plt.tight_layout()
         for c in ax.containers:
             ax.label(c, label_type='edge')
@@ -27,7 +26,6 @@ class SalesPlotter:
         ax.set_title('Estoque Restante de Cada Produto Após 12 Meses')
         ax.set_xlabel('Produtos')
         ax.set_ylabel('Estoque Restante')
-        plt.xticks(rotation=90)
         plt.tight_layout()
         for c in ax.containers:
             ax.bar_label(c, label_type='edge')
@@ -40,7 +38,6 @@ class SalesPlotter:
         ax.set_title('Quantidade de Vendas de Cada Produto Após 12 Meses')
         ax.set_xlabel('Produtos')
         ax.set_ylabel('Quantidade Vendida')
-        plt.xticks(rotation=90)
         plt.tight_layout()
         for c in ax.containers:
             ax.bar_label(c, label_type='edge')
