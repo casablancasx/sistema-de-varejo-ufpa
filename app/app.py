@@ -32,7 +32,8 @@ def main():
     # Criar interface gráfica
     root = tk.Tk()
     root.title("📊 Financial Health Report")
-    root.geometry("900x650")
+    root.state('zoomed')
+
     root.configure(bg="#F4F4F4")
 
     # Aplicar estilo moderno
