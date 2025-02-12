@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="050b2da7-e4e1-4b21-aa89-8f0679b62d38" name="Changes" comment="adicionando nova funcionalidade de análise e plotagem de vendas com interface gráfica">
+    <list default="true" id="050b2da7-e4e1-4b21-aa89-8f0679b62d38" name="Changes" comment="refact: retirando rotacao da legenda dos graficos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/sales_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/sales_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +121,8 @@
       <updated>1739131831886</updated>
       <workItem from="1739131832961" duration="305000" />
       <workItem from="1739132151885" duration="4246000" />
-      <workItem from="1739226542419" duration="1204000" />
+      <workItem from="1739226542419" duration="1399000" />
+      <workItem from="1739231071227" duration="2560000" />
     </task>
     <task id="LOCAL-00001" summary="adicionando módulos de processamento de dados e análise de vendas com funcionalidade de plotagem">
       <option name="closed" value="true" />
@@ -155,7 +156,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739136064385</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adicionando melhorias na análise e plotagem de vendas com interface gráfica">
+      <option name="closed" value="true" />
+      <created>1739230141939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739230141939</updated>
+    </task>
+    <task id="LOCAL-00006" summary="tela cheia">
+      <option name="closed" value="true" />
+      <created>1739231231755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739231231755</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refact: retirando rotacao da legenda dos graficos">
+      <option name="closed" value="true" />
+      <created>1739231406938</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739231406938</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,11 +202,14 @@
     <MESSAGE value="adicionando classes para análise de vendas e plotagem de gráficos" />
     <MESSAGE value="adicionando novas funcionalidades para análise e plotagem de vendas" />
     <MESSAGE value="adicionando nova funcionalidade de análise e plotagem de vendas com interface gráfica" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando nova funcionalidade de análise e plotagem de vendas com interface gráfica" />
+    <MESSAGE value="adicionando melhorias na análise e plotagem de vendas com interface gráfica" />
+    <MESSAGE value="tela cheia" />
+    <MESSAGE value="refact: retirando rotacao da legenda dos graficos" />
+    <option name="LAST_COMMIT_MESSAGE" value="refact: retirando rotacao da legenda dos graficos" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sistema_varejo$main.coverage" NAME="main Coverage Results" MODIFIED="1739133927909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/sistema_varejo$run.coverage" NAME="run Coverage Results" MODIFIED="1739135745881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/sistema_varejo$run.coverage" NAME="run Coverage Results" MODIFIED="1739236415473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/sistema_varejo$app.coverage" NAME="app Coverage Results" MODIFIED="1739134255794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>

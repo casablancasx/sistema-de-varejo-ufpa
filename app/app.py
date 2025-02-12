@@ -32,7 +32,7 @@ def main():
     # Criar interface gráfica
     root = tk.Tk()
     root.title("📊 Financial Health Report")
-    root.state('zoomed')
+    root.state(newstate=tk.NORMAL)
 
     root.configure(bg="#F4F4F4")
 
@@ -56,7 +56,7 @@ def main():
               font=("Arial", 11)).pack(anchor=tk.W)
     ttk.Label(info_frame, text=f"💰 Lucro total: R$ {total_profit:.2f}", font=("Arial", 11, "bold")).pack(anchor=tk.W)
     ttk.Label(info_frame, text=f"📉 Total investido: R$ {total_invested:.2f}", font=("Arial", 11)).pack(anchor=tk.W)
-    ttk.Label(info_frame, text=f"📦 Total vendido: {total_sold}", font=("Arial", 11)).pack(anchor=tk.W)
+    ttk.Label(info_frame, text=f"📦 Total vendido: {total_sold:.2f}", font=("Arial", 11)).pack(anchor=tk.W)
 
     ttk.Label(info_frame, text="📆 Mês com maior quantidade de vendas por produto:", font=("Arial", 11, "bold")).pack(
         anchor=tk.W)
